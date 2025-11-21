@@ -1,0 +1,1164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Essential SEO Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Venora Digitech Pricing - Affordable web design, development, and branding packages. Transparent pricing for startups, SMEs, and established businesses.">
+    <meta name="keywords" content="web design pricing, website development cost, branding packages, affordable web design, digital agency pricing">
+    <meta name="author" content="Venora Digitech">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph Meta Tags for Social Sharing -->
+    <meta property="og:title" content="Pricing - Venora Digitech | Transparent Digital Services Pricing">
+    <meta property="og:description" content="Explore our affordable pricing packages for web design, development, and branding services. Quality solutions for every budget.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://venoradigitech.com/pricing">
+    <meta property="og:image" content="https://venoradigitech.com/images/pricing-og-image.jpg">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Pricing - Venora Digitech">
+    <meta name="twitter:description" content="Affordable web design, development, and branding packages for businesses of all sizes.">
+    <meta name="twitter:image" content="https://venoradigitech.com/images/pricing-twitter-image.jpg">
+
+    <!-- Structured Data for Search Engines -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Pricing - Venora Digitech",
+      "description": "Pricing page for Venora Digitech digital design and development services",
+      "url": "https://venoradigitech.com/pricing",
+      "mainEntity": {
+        "@type": "Service",
+        "name": "Digital Design & Development Services",
+        "provider": {
+          "@type": "Organization",
+          "name": "Venora Digitech",
+          "description": "Digital Design & Development Studio"
+        },
+        "areaServed": "IN",
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Service Packages",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Website Development Starter Package",
+                "description": "Perfect for freelancers & small businesses starting fresh"
+              },
+              "price": "4999",
+              "priceCurrency": "INR"
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Website Development Growth Package",
+                "description": "Most popular package for growing businesses"
+              },
+              "price": "9999",
+              "priceCurrency": "INR"
+            }
+          ]
+        }
+      }
+    }
+    </script>
+
+    <title>Pricing | Venora Digitech</title>
+
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+    <!-- DNS Prefetch for External Domains -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <style>
+        :root {
+            --navy-100: #eaf3ff;
+            --navy-300: #8fb2d9;
+            --navy-500: #2d4f73;
+            --navy-700: #0d2842;
+            --navy-900: #04101f;
+            --accent: #00c6c8;
+            --accent-dark: #009a9c;
+            --dark-bg: #0a1625;
+            --darker-bg: #050e18;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: white;
+            color: var(--navy-900);
+            scroll-behavior: smooth;
+            overflow-x: hidden;
+            margin: 0;
+            padding: 0;
+        }
+
+        .glass-header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.08);
+        }
+
+        .logo-venora {
+            background: linear-gradient(135deg, var(--navy-900), var(--navy-700));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+        }
+
+        .logo-digitech {
+            color: var(--navy-900);
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            position: relative;
+        }
+
+        .logo-digitech::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, var(--navy-500), var(--navy-700));
+            border-radius: 1px;
+        }
+
+        .nav-link {
+            position: relative;
+            transition: all 0.3s ease;
+            font-weight: 500;
+            color: var(--navy-700);
+        }
+
+        .nav-link:hover {
+            color: var(--navy-500);
+        }
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -6px;
+            left: 0;
+            background: var(--navy-500);
+            transition: width 0.3s ease;
+        }
+
+        .nav-link:hover::after {
+            width: 100%;
+        }
+
+        .btn-primary {
+            background: var(--navy-900);
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+            font-weight: 600;
+        }
+
+        .btn-primary::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: left 0.7s ease;
+        }
+
+        .btn-primary:hover::before {
+            left: 100%;
+        }
+
+        .btn-primary:hover {
+            background: var(--navy-700);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(13, 40, 66, 0.25);
+        }
+
+        /* Advanced Animations */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.8s ease, transform 0.8s ease;
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .stagger-item {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.6s ease;
+        }
+
+        .stagger-item.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .float-animation {
+            animation: float 6s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+
+        .pulse-glow {
+            animation: pulse-glow 2s ease-in-out infinite alternate;
+        }
+
+        @keyframes pulse-glow {
+            0% { box-shadow: 0 0 20px rgba(0, 198, 200, 0.3); }
+            100% { box-shadow: 0 0 30px rgba(0, 198, 200, 0.6); }
+        }
+
+        .shimmer {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .shimmer::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+            animation: shimmer 2s infinite;
+        }
+
+        @keyframes shimmer {
+            0% { left: -100%; }
+            100% { left: 100%; }
+        }
+
+        .section-title {
+            position: relative;
+            display: inline-block;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            width: 60%;
+            height: 4px;
+            bottom: -12px;
+            left: 0;
+            background: linear-gradient(90deg, var(--navy-500), var(--navy-700));
+            border-radius: 2px;
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.8s ease;
+        }
+
+        .section-title.visible::after {
+            transform: scaleX(1);
+        }
+
+        .social-icon {
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.1);
+            color: white;
+        }
+
+        .social-icon:hover {
+            background: var(--navy-500);
+            color: white;
+            transform: translateY(-5px);
+        }
+
+        .darker-section {
+            background: var(--darker-bg);
+            color: white;
+        }
+
+        /* PREMIUM PRICING SECTION STYLES */
+        .pricing-section {
+            background: linear-gradient(135deg, var(--navy-100) 0%, white 50%, var(--navy-100) 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .pricing-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background:
+                radial-gradient(circle at 20% 80%, rgba(0, 198, 200, 0.05) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(13, 40, 66, 0.05) 0%, transparent 50%),
+                radial-gradient(circle at 40% 40%, rgba(255, 255, 255, 0.1) 0%, transparent 50%);
+            z-index: 0;
+        }
+
+        .service-category {
+            margin-bottom: 6rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .category-title {
+            position: relative;
+            display: inline-block;
+            margin-bottom: 3rem;
+            background: linear-gradient(135deg, var(--navy-900), var(--navy-700));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            padding: 0.5rem 0;
+        }
+
+        .category-title::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 3px;
+            bottom: -8px;
+            left: 0;
+            background: linear-gradient(90deg, var(--accent), var(--navy-500));
+            border-radius: 2px;
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 1s ease 0.3s;
+        }
+
+        .category-title.visible::after {
+            transform: scaleX(1);
+        }
+
+        /* PREMIUM PRICING CARDS */
+        .pricing-card {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-radius: 24px;
+            padding: 2.5rem;
+            box-shadow:
+                0 10px 40px rgba(13, 40, 66, 0.1),
+                inset 0 1px 0 rgba(255, 255, 255, 0.6);
+            transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            border: 1px solid rgba(255, 255, 255, 0.8);
+            height: 100%;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .pricing-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--navy-500), var(--navy-700));
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.5s ease;
+        }
+
+        .pricing-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .pricing-card:hover {
+            transform: translateY(-15px) scale(1.02);
+            box-shadow:
+                0 25px 60px rgba(13, 40, 66, 0.15),
+                inset 0 1px 0 rgba(255, 255, 255, 0.8);
+        }
+
+        .pricing-card.popular {
+            border: 2px solid var(--accent);
+            transform: scale(1.05);
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(234, 243, 255, 0.8));
+        }
+
+        .pricing-card.popular:hover {
+            transform: scale(1.05) translateY(-15px);
+            box-shadow:
+                0 30px 70px rgba(0, 198, 200, 0.2),
+                inset 0 1px 0 rgba(255, 255, 255, 0.8);
+        }
+
+        .pricing-card.custom {
+            background: linear-gradient(135deg, var(--navy-900), var(--navy-700));
+            color: white;
+            border: 2px solid transparent;
+            background-clip: padding-box;
+            position: relative;
+        }
+
+        .pricing-card.custom::after {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            background: linear-gradient(135deg, var(--accent), #ff6b6b, #ffd93d);
+            border-radius: 26px;
+            z-index: -1;
+            opacity: 0;
+            transition: opacity 0.5s ease;
+        }
+
+        .pricing-card.custom:hover::after {
+            opacity: 1;
+        }
+
+        .pricing-card.custom:hover {
+            transform: translateY(-15px) scale(1.02);
+        }
+
+        .popular-badge {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background: linear-gradient(135deg, var(--accent), var(--accent-dark));
+            color: white;
+            padding: 0.5rem 1.5rem;
+            font-size: 0.8rem;
+            font-weight: 600;
+            border-radius: 0 24px 0 24px;
+            box-shadow: 0 4px 15px rgba(0, 198, 200, 0.3);
+            animation: pulse-glow 2s ease-in-out infinite alternate;
+        }
+
+        .custom-badge {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background: linear-gradient(135deg, #ff6b6b, #ff8e8e);
+            color: white;
+            padding: 0.5rem 1.5rem;
+            font-size: 0.8rem;
+            font-weight: 600;
+            border-radius: 0 24px 0 24px;
+            box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+        }
+
+        .package-name {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--navy-900);
+            margin-bottom: 1rem;
+            position: relative;
+        }
+
+        .pricing-card.custom .package-name {
+            color: white;
+        }
+
+        .package-price {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: var(--navy-900);
+            margin-bottom: 1.5rem;
+            position: relative;
+        }
+
+        .pricing-card.custom .package-price {
+            color: white;
+        }
+
+        .package-description {
+            color: var(--navy-600);
+            margin-bottom: 2rem;
+            line-height: 1.6;
+            position: relative;
+        }
+
+        .pricing-card.custom .package-description {
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        .feature-list {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 2.5rem;
+            flex-grow: 1;
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 1rem;
+            color: var(--navy-700);
+            transition: transform 0.3s ease;
+            position: relative;
+        }
+
+        .feature-item:hover {
+            transform: translateX(5px);
+        }
+
+        .pricing-card.custom .feature-item {
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        .feature-item i {
+            color: var(--accent);
+            margin-right: 0.75rem;
+            margin-top: 0.25rem;
+            flex-shrink: 0;
+            transition: transform 0.3s ease;
+        }
+
+        .feature-item:hover i {
+            transform: scale(1.2);
+        }
+
+        .pricing-card.custom .feature-item i {
+            color: #ffd93d;
+        }
+
+        .package-tag {
+            display: inline-block;
+            background: rgba(13, 40, 66, 0.08);
+            color: var(--navy-700);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+        }
+
+        .pricing-card.custom .package-tag {
+            background: rgba(255, 255, 255, 0.15);
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .pricing-btn {
+            width: 100%;
+            padding: 1rem 2rem;
+            border-radius: 12px;
+            font-weight: 600;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            text-align: center;
+            display: block;
+            margin-top: auto;
+            position: relative;
+            overflow: hidden;
+            border: none;
+            cursor: pointer;
+        }
+
+        .pricing-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+            transition: left 0.7s ease;
+        }
+
+        .pricing-btn:hover::before {
+            left: 100%;
+        }
+
+        .btn-primary-pricing {
+            background: var(--navy-900);
+            color: white;
+            box-shadow: 0 4px 15px rgba(13, 40, 66, 0.2);
+        }
+
+        .btn-primary-pricing:hover {
+            background: var(--navy-700);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(13, 40, 66, 0.3);
+        }
+
+        .btn-accent-pricing {
+            background: linear-gradient(135deg, var(--accent), var(--accent-dark));
+            color: white;
+            box-shadow: 0 4px 15px rgba(0, 198, 200, 0.3);
+        }
+
+        .btn-accent-pricing:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0, 198, 200, 0.4);
+        }
+
+        .btn-custom-pricing {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            backdrop-filter: blur(10px);
+        }
+
+        .btn-custom-pricing:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(255, 255, 255, 0.2);
+        }
+
+        /* Floating elements */
+        .floating-element {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background: linear-gradient(135deg, var(--accent), var(--navy-500));
+            border-radius: 50%;
+            opacity: 0.1;
+            filter: blur(40px);
+            animation: float 8s ease-in-out infinite;
+            z-index: 0;
+        }
+
+        .floating-element:nth-child(1) {
+            top: 10%;
+            left: 5%;
+            animation-delay: 0s;
+        }
+
+        .floating-element:nth-child(2) {
+            top: 60%;
+            right: 10%;
+            animation-delay: 2s;
+            background: linear-gradient(135deg, #ff6b6b, #ff8e8e);
+        }
+
+        .floating-element:nth-child(3) {
+            bottom: 20%;
+            left: 15%;
+            animation-delay: 4s;
+            background: linear-gradient(135deg, #ffd93d, #ff6b6b);
+        }
+
+        .footer-link {
+            transition: all 0.3s ease;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .footer-link:hover {
+            color: var(--accent);
+            transform: translateX(5px);
+        }
+
+        .footer-divider {
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            margin: 2rem 0;
+        }
+
+        @media (max-width: 768px) {
+            .pricing-card.popular {
+                transform: none;
+            }
+
+            .pricing-card.popular:hover {
+                transform: translateY(-15px);
+            }
+
+            .pricing-card {
+                padding: 2rem;
+            }
+
+            .floating-element {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body class="overflow-x-hidden">
+
+<!-- HEADER -->
+<header class="fixed top-0 left-0 right-0 z-50 glass-header py-4">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        <div class="flex justify-between items-center">
+            <div class="flex items-center">
+                <a href="/" class="text-2xl font-bold flex items-baseline" aria-label="Venora Digitech Home">
+                    <span class="logo-venora mr-1">Venora</span>
+                    <span class="logo-digitech">Digitech</span>
+                </a>
+            </div>
+            <nav class="hidden lg:flex gap-10 font-medium" aria-label="Main navigation">
+                <a href="{% url 'home' %}" class="nav-link">Home</a>
+                <a href="/#about" class="nav-link">About</a>
+                <a href="/#services" class="nav-link">Services</a>
+                <a href="/contact" class="nav-link">Contact</a>
+            </nav>
+            <div class="hidden lg:flex items-center">
+                <a href="/contact" class="px-6 py-2.5 navy-gradient text-white rounded-lg btn-primary">Get Started</a>
+            </div>
+            <button class="lg:hidden text-navy-900" aria-label="Toggle mobile menu">
+                <i class="fas fa-bars text-xl"></i>
+            </button>
+        </div>
+    </div>
+</header>
+
+<!-- PRICING SECTION -->
+<section class="pt-32 pb-20 pricing-section">
+    <!-- Floating Background Elements -->
+    <div class="floating-element"></div>
+    <div class="floating-element"></div>
+    <div class="floating-element"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
+        <div class="text-center mb-16 fade-in">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-navy-900 section-title">Transparent Pricing</h1>
+            <p class="text-center text-navy-600 max-w-2xl mx-auto mt-6 text-lg">Choose the perfect package for your business needs. All packages include our signature quality and dedication.</p>
+        </div>
+
+        <!-- Website Packages -->
+        <div class="service-category fade-in" id="website">
+            <h2 class="text-3xl font-bold category-title">Website Development</h2>
+            <div class="grid lg:grid-cols-4 gap-6">
+                <!-- Starter Package -->
+                <div class="pricing-card stagger-item">
+                    <div class="package-name">Starter Package</div>
+                    <div class="package-price">₹4,999/-</div>
+                    <div class="package-description">Perfect for freelancers & small businesses starting fresh.</div>
+                    <span class="package-tag">Best for New Businesses</span>
+
+                    <ul class="feature-list">
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> 1-Page Static Website (Landing Page)</li>
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Basic Logo & Banner Design</li>
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> 3 Social Media Posts (Content + Design)</li>
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Free Domain & Hosting Setup Guidance (1 year)</li>
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> 90 days Free Support</li>
+                    </ul>
+                </div>
+
+                <!-- Growth Package -->
+                <div class="pricing-card popular stagger-item">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="package-name">Growth Package</div>
+                    <div class="package-price">₹9,999/-</div>
+                    <div class="package-description">Perfect for freelancers & small businesses starting fresh.</div>
+                    <span class="package-tag">Most Popular</span>
+
+                    <ul class="feature-list">
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> 5-Page Dynamic Website (Responsive Design)</li>
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Professional Branding Kit (Logo, Banner, Business Card)</li>
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> 10 Social Media Posts (Content + Design)</li>
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Free Domain & Hosting Setup Guidance (1 year)</li>
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> 120 days Free Support</li>
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Basic SEO Setup (Keywords + Meta Tags)</li>
+                    </ul>
+                </div>
+
+                <!-- Premium Package -->
+                <div class="pricing-card stagger-item">
+                    <div class="package-name">Premium Package</div>
+                    <div class="package-price">₹19,999/-</div>
+                    <div class="package-description">For established businesses ready to dominate online.</div>
+                    <span class="package-tag">Complete Business Solution</span>
+
+                    <ul class="feature-list">
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> 10-Page Customized Website (Dynamic + Responsive)</li>
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Blog/News Section Integration</li>
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Full Branding Kit (Logo, Brochures, Stationery)</li>
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> 20 Social Media Posts + Content Calendar</li>
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> 200 days Maintenance & Support</li>
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Advanced SEO Optimization</li>
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Free Domain & Hosting Setup Guidance (1 year)</li>
+                    </ul>
+                </div>
+
+                <!-- Custom Website Package -->
+                <div class="pricing-card custom stagger-item">
+                    <div class="custom-badge">Custom</div>
+                    <div class="package-name">Custom Website</div>
+                    <div class="package-price shimmer">Custom</div>
+                    <div class="package-description">Tailored solutions for unique business requirements and complex projects.</div>
+                    <span class="package-tag">Fully Customizable</span>
+
+                    <ul class="feature-list">
+                        <li class="feature-item"><i class="fas fa-star" aria-hidden="true"></i> Custom Design & Development</li>
+                        <li class="feature-item"><i class="fas fa-star" aria-hidden="true"></i> E-commerce Integration</li>
+                        <li class="feature-item"><i class="fas fa-star" aria-hidden="true"></i> Advanced Functionality</li>
+                        <li class="feature-item"><i class="fas fa-star" aria-hidden="true"></i> Custom CMS Development</li>
+                        <li class="feature-item"><i class="fas fa-star" aria-hidden="true"></i> API Integrations</li>
+                        <li class="feature-item"><i class="fas fa-star" aria-hidden="true"></i> Ongoing Maintenance Plans</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+      <!-- Content Packages -->
+        <div class="service-category fade-in" id="content">
+            <h2 class="text-3xl font-bold category-title">Content Creation</h2>
+            <div class="grid lg:grid-cols-4 gap-6">
+                <!-- Starter Package -->
+                <div class="pricing-card stagger-item">
+                    <div class="package-name">Starter Package</div>
+                    <div class="package-price">₹2,999/-</div>
+                    <div class="package-description">Perfect for new businesses & personal brands.</div>
+                    <span class="package-tag">Kickstart Your Presence</span>
+
+                    <ul class="feature-list">
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> 2 Blog Articles (500 words each)</li>
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Hashtag Strategy & Basic Content Calendar</li>
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> 30 days Free Support</li>
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> 8 Social Media Posts (Content + Captions)</li>
+                    </ul>
+                </div>
+
+                <!-- Growth Package -->
+                <div class="pricing-card popular stagger-item">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="package-name">Growth Package</div>
+                    <div class="package-price">₹6,999/-</div>
+                    <div class="package-description">Best for startups & SMEs building consistent visibility.</div>
+                    <span class="package-tag">Most Popular</span>
+
+                    <ul class="feature-list">
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> 4 Blog Articles (800–1000 words each)</li>
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Monthly Content Calendar + Posting Guidance</li>
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Engaging Stories/Reels Script Writing (5 per month)</li>
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> 15 Social Media Posts (Content + Captions)</li>
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> 120 days Free Support</li>
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> SEO-Friendly Copywriting</li>
+                    </ul>
+                </div>
+
+                <!-- Premium Package -->
+                <div class="pricing-card stagger-item">
+                    <div class="package-name">Premium Package</div>
+                    <div class="package-price">₹19,999/-</div>
+                    <div class="package-description">For brands aiming for serious growth & audience engagement.</div>
+                    <span class="package-tag">Complete Brand Growth</span>
+
+                    <ul class="feature-list">
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> 8 Blog Articles (1000+ words each)</li>
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Full Content Strategy + Calendar</li>
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Email Marketing Content (2 Campaigns)</li>
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> 25 Social Media Posts (Content + Captions)</li>
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> 200 days Free Support</li>
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Advanced SEO Optimization</li>
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Dedicated Content Manager + Monthly Reports</li>
+                    </ul>
+                </div>
+
+                <!-- Custom Content Package -->
+                <div class="pricing-card custom stagger-item">
+                    <div class="custom-badge">Custom</div>
+                    <div class="package-name">Custom Content</div>
+                    <div class="package-price shimmer">Custom</div>
+                    <div class="package-description">Strategic content solutions tailored to your specific audience and goals.</div>
+                    <span class="package-tag">Strategic Content</span>
+
+                    <ul class="feature-list">
+                        <li class="feature-item"><i class="fas fa-star" aria-hidden="true"></i> Custom Content Strategy Development</li>
+                        <li class="feature-item"><i class="fas fa-star" aria-hidden="true"></i> Video Content Production</li>
+                        <li class="feature-item"><i class="fas fa-star" aria-hidden="true"></i> Podcast Scripting & Production</li>
+                        <li class="feature-item"><i class="fas fa-star" aria-hidden="true"></i> Whitepapers & Case Studies</li>
+                        <li class="feature-item"><i class="fas fa-star" aria-hidden="true"></i> Multi-platform Content Adaptation</li>
+                        <li class="feature-item"><i class="fas fa-star" aria-hidden="true"></i> Performance Analytics & Optimization</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Branding Packages -->
+        <div class="service-category fade-in" id="branding">
+            <h2 class="text-3xl font-bold category-title">Branding & Design</h2>
+            <div class="grid lg:grid-cols-4 gap-6">
+                <!-- Starter Package -->
+                <div class="pricing-card stagger-item">
+                    <div class="package-name">Starter Package</div>
+                    <div class="package-price">₹2,499/-</div>
+                    <div class="package-description">Perfect for freelancers & small businesses starting fresh.</div>
+                    <span class="package-tag">Beginner's Branding</span>
+
+                    <ul class="feature-list">
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Business Card Design</li>
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> 2 Social Media Post Templates</li>
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Brand Color Palette Suggestion</li>
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Logo Design (2 Concepts + 1 Revision)</li>
+                    </ul>
+                </div>
+
+                <!-- Growth Package -->
+                <div class="pricing-card popular stagger-item">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="package-name">Growth Package</div>
+                    <div class="package-price">₹5,999/-</div>
+                    <div class="package-description">Best for startups & growing companies.</div>
+                    <span class="package-tag">Most Popular</span>
+
+                    <ul class="feature-list">
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Complete Branding Kit (Logo, Business Card, Letterhead, Email Signature)</li>
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> 10 Social Media Post Templates</li>
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> 1 Banner / Flyer Design</li>
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Logo Design (3 Concepts + 3 Revisions)</li>
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Brand Color Palette Suggestion</li>
+                    </ul>
+                </div>
+
+                <!-- Premium Package -->
+                <div class="pricing-card stagger-item">
+                    <div class="package-name">Premium Package</div>
+                    <div class="package-price">₹11,999/-</div>
+                    <div class="package-description">For businesses that want a strong, consistent brand identity.</div>
+                    <span class="package-tag">Complete Brand Growth</span>
+
+                    <ul class="feature-list">
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Complete Brand Identity Kit (Logo, Business Card, Letterhead, Email Signature, Brochure, Templates)</li>
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> 20 Social Media Post Templates + Stories Pack</li>
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Premium Logo Design (Unlimited Concepts & Revisions)</li>
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> 3 Marketing Collateral Designs (Flyer, Poster, Banner, etc.)</li>
+                        <li class="feature-item"><i class="fas fa-check-circle" aria-hidden="true"></i> Brand Guidelines Document (Fonts, Colors, Usage Rules)</li>
+                    </ul>
+                </div>
+
+                <!-- Custom Branding Package -->
+                <div class="pricing-card custom stagger-item">
+                    <div class="custom-badge">Custom</div>
+                    <div class="package-name">Custom Branding</div>
+                    <div class="package-price shimmer">Custom</div>
+                    <div class="package-description">Complete brand transformation with comprehensive identity systems.</div>
+                    <span class="package-tag">Full Brand Strategy</span>
+
+                    <ul class="feature-list">
+                        <li class="feature-item"><i class="fas fa-star" aria-hidden="true"></i> Comprehensive Brand Strategy</li>
+                        <li class="feature-item"><i class="fas fa-star" aria-hidden="true"></i> Complete Visual Identity System</li>
+                        <li class="feature-item"><i class="fas fa-star" aria-hidden="true"></i> Custom Illustration & Iconography</li>
+                        <li class="feature-item"><i class="fas fa-star" aria-hidden="true"></i> Packaging & Merchandise Design</li>
+                        <li class="feature-item"><i class="fas fa-star" aria-hidden="true"></i> Brand Launch Strategy</li>
+                        <li class="feature-item"><i class="fas fa-star" aria-hidden="true"></i> Ongoing Brand Management</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="py-16 darker-section">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        <!-- Main Footer Content -->
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- Company Info -->
+            <div class="md:col-span-2">
+                <div class="text-2xl font-bold flex items-baseline mb-4">
+                    <span class="logo-venora mr-1">Venora</span>
+                    <span class="logo-digitech text-white">Digitech</span>
+                </div>
+                <p class="text-gray-300 mb-6 max-w-md">Crafting world-class digital experiences for modern businesses. We transform ideas into impactful digital solutions that drive growth and engagement.</p>
+                <div class="flex gap-4 mb-6">
+                    <a href="https://www.instagram.com/venoradigitech/" class="social-icon" target="_blank" aria-label="Visit our Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/venoradigitech" class="social-icon" target="_blank" aria-label="Visit our LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://x.com/venoradigitech" class="social-icon" target="_blank" aria-label="Visit our X (Twitter)">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=61580033548568" class="social-icon" target="_blank" aria-label="Visit our Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </div>
+                <p class="text-gray-400 text-sm">Visit Our Sister Company: <a class="text-accent" href="https://www.venoraglobal.com" target="_blank">Venora Global</a></p>
+            </div>
+
+            <!-- Contact Information -->
+            <div>
+                <h3 class="text-white font-semibold mb-4 text-lg">Get In Touch</h3>
+                <ul class="space-y-3">
+                    <li class="flex items-start">
+                        <i class="fas fa-map-marker-alt text-accent mr-3 mt-1"></i>
+                        <span class="text-gray-300">Mumbai, India</span>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/919967252245" target="_blank" class="footer-link flex items-start">
+                            <i class="fab fa-whatsapp text-accent mr-3 mt-1"></i>
+                            <span>+91 99672 52245</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:venoradigitech@gmail.com" class="footer-link flex items-start" target="_blank">
+                            <i class="fas fa-envelope text-accent mr-3 mt-1"></i>
+                            <span>venoradigitech@gmail.com</span>
+                        </a>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-clock text-accent mr-3 mt-1"></i>
+                        <span class="text-gray-300">Mon - Fri: 9:00 AM - 6:00 PM</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Footer Divider -->
+        <div class="footer-divider"></div>
+
+        <!-- Copyright -->
+        <div class="text-center">
+            <p class="text-gray-400 text-sm">© 2023 Venora Digitech. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script>
+    // Enhanced Scroll Animations with Throttling
+    document.addEventListener('DOMContentLoaded', function() {
+        const fadeElements = document.querySelectorAll('.fade-in');
+        const staggerItems = document.querySelectorAll('.stagger-item');
+        const sectionTitles = document.querySelectorAll('.section-title, .category-title');
+
+        const fadeInOnScroll = function() {
+            fadeElements.forEach(element => {
+                const elementTop = element.getBoundingClientRect().top;
+                const elementVisible = 150;
+
+                if (elementTop < window.innerHeight - elementVisible) {
+                    element.classList.add('visible');
+                }
+            });
+
+            sectionTitles.forEach(title => {
+                const titleTop = title.getBoundingClientRect().top;
+                const titleVisible = 200;
+
+                if (titleTop < window.innerHeight - titleVisible) {
+                    title.classList.add('visible');
+                }
+            });
+
+            staggerItems.forEach((item, index) => {
+                const itemTop = item.getBoundingClientRect().top;
+                const itemVisible = 100;
+
+                if (itemTop < window.innerHeight - itemVisible) {
+                    setTimeout(() => {
+                        item.classList.add('visible');
+                    }, index * 100);
+                }
+            });
+        };
+
+        // Initial check
+        fadeInOnScroll();
+
+        // Check on scroll with throttling for performance
+        let ticking = false;
+        window.addEventListener('scroll', function() {
+            if (!ticking) {
+                requestAnimationFrame(function() {
+                    fadeInOnScroll();
+                    ticking = false;
+                });
+                ticking = true;
+            }
+        });
+
+        // Mobile menu toggle
+        const mobileMenuButton = document.querySelector('button.lg\\:hidden');
+        mobileMenuButton.addEventListener('click', function() {
+            alert('Mobile menu would open here in a complete implementation.');
+        });
+
+        // Add hover effects for cards
+        const pricingCards = document.querySelectorAll('.pricing-card');
+        pricingCards.forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.zIndex = '10';
+            });
+
+            card.addEventListener('mouseleave', function() {
+                this.style.zIndex = '1';
+            });
+        });
+
+        // Add click effects for buttons
+        const pricingButtons = document.querySelectorAll('.pricing-btn');
+        pricingButtons.forEach(button => {
+            button.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                // Create ripple effect
+                const ripple = document.createElement('span');
+                const rect = this.getBoundingClientRect();
+                const size = Math.max(rect.width, rect.height);
+                const x = e.clientX - rect.left - size / 2;
+                const y = e.clientY - rect.top - size / 2;
+
+                ripple.style.width = ripple.style.height = size + 'px';
+                ripple.style.left = x + 'px';
+                ripple.style.top = y + 'px';
+                ripple.classList.add('ripple');
+
+                this.appendChild(ripple);
+
+                setTimeout(() => {
+                    ripple.remove();
+                }, 600);
+
+                // Simulate form submission
+                setTimeout(() => {
+                    window.location.href = this.getAttribute('href');
+                }, 300);
+            });
+        });
+    });
+
+    // Add ripple effect styles
+    const style = document.createElement('style');
+    style.textContent = `
+        .ripple {
+            position: absolute;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.6);
+            transform: scale(0);
+            animation: ripple-animation 0.6s linear;
+        }
+
+        @keyframes ripple-animation {
+            to {
+                transform: scale(4);
+                opacity: 0;
+            }
+        }
+    `;
+    document.head.appendChild(style);
+</script>
+
+</body>
+</html>
